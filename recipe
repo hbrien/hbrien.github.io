@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Recipe</title>
+  </head>
+  <body>
+    <h1> Chicken Saute with Peppers and Goat Cheese </h1>
+    <p> This wonderful mixture of chicken, sauteed bell peppers and onions in tomato sauce, is topped with tangy bits of goat cheese. It's super served as is or spooned over pasta, rice, couscous, or quinoa.  </p>
+    <h2> Ingredients </h2>
+      <ul>
+        <li> 1<sup>1/2</sup> Tbsp all-purpose flour </li>
+        <li> 1/4 tsp table salt </li>
+        <li> 1/4 tsp black pepper, freshly ground </li>
+        <li> 12 oz uncooked boneless skinless check breast(s), cut into chunks </li>
+        <li> 2 tsp olive oil, extra-virgin, divided </li>
+        <li> 2 medium bell pepper, cut into strips </li>
+        <li> 1 medium onion, thinly sliced </li>
+        <li> 2 gloves garlic, minced </li>
+        <li> 8 oz canned tomato sauce </li>
+        <li> 1/4 cup water </li>
+        <li> 1/4 cup basil, sliced or torn </li>
+        <li> 4 Tbsp soft-type goat cheese </li>
+      </ul>
+  <h2> Instructions </h2>
+    <ol>
+      <li> On a plate, combine flour, salt and pepper. Add chicken and toss to coat. </li>
+      <li> Heat 1 teaspoon oil in a large nonstick skillet over medium-high heat. Add chicken and cook, turning occasionally, until lightly browned and cooked through. About 6 mintues; remove to plate. </li>
+      <li> Heat remaining teaspoon oil in same skillet over medium-high heat. Add epppers and onions; toss to coat. Cover and cook stirring occasionally, until peppers and onions are very tender and light golden. About 12 minutes. </li>
+      <li> Add garlic; saute until fragrant, and 30 seconds. </li>
+      <li> Stir in tomato sauce and water; bring to a simmer over medium-high heat, scrapping up browned bits from bottom of pan. </li>
+      <li> Retrun chicken and any accumulated juices to skillet; heat through. Remove from heat and stir in basil. </li>
+      <li> Crumble goat cheese over top. </li>
+    </ol>
+  <h3> Notes </h3>
+    <p>No fresh basil on hand? Crumble in some dried basel, oregano, or thyme instead.
+    <br>
+    Other tasty additions to this recipe inlcude sliced olives, a few capers, crushed red peppers and/or a splash of balsamic vinegar. </p>
+  </body>
+</html>
