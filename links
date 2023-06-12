@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Links Practice</title>
+  </head>
+  <nav>
+    <a href="skills.html"> Skills </a>
+    <a href="interests.html"> Interests </a>
+    <a href="books.html"> Books </a>
+    <a href="practice.html"> Practice </a>
+  <body>
+    <h1 id="header"> Heather Brien </h1>
+    <p> I am very excited to be in IDN 530 to learn how to code my own learning resources. </p>
+    <ul>
+      <li><a href="https://www.google,com"> Google </a> </li>
+      <li><a href="mailto:hbrien@quinnipiac.edu"> Email Me </a> </li>
+      <li><a href="story.html"> Read This Story </a></li>
+      <li><a href="#header"> Link to Top </a></li>
+    </ul>
+  </body>
+</html>
