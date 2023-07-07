@@ -1,0 +1,30 @@
+
+
+nav{
+  background-color: #aadfe2;
+  font-family: montserrat;
+  padding: 10px;
+}
+
+ h1 {
+    font-family: source sans pro;
+    font-size: 40px;
+ }
+  h2 {
+    font-family: source sans pro;
+  }
+
+ p {
+     font-family: montserrat;
+     font-size:16px;
+ }
+
+ ul{
+   font-family: Source sans pro;
+   font-size: 20px;
+ }
+
+ footer {
+    background-color: #aadfe2;
+    font-family: montserrat;
+ }
