@@ -34,13 +34,22 @@ nav a{
     border-radius: 10px;
   }
 
-.explain {
-  margin:0 10% 0 10%;
-  border-style: dotted;
+  .explain {
+    margin: 1% 10% 1% 10%;
+    border-style: dotted;
 }
 
-.list{
-  padding: 5px;
+.list ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+li{
+  line-height: 20px;
+  text-align:center;
+  font-family: montserrat;
+  padding: 1%s
 }
   iframe {
     border-radius: 10px;
@@ -53,12 +62,12 @@ nav a{
 
 ul {
   line-height: 50px;
+  list-style-type: none;
 }
 
  p {
      font-family: montserrat;
      font-size:16px;
-
  }
 
  ul{
@@ -74,10 +83,8 @@ ul {
     padding-left: 3%;
 
  }
-
- footer em {
+ footer .messagebox {
    border: inset;
-   border-radius: 10px;
-   padding-bottom: 8%;
-   padding-right: 85%;
- }
+   padding: .5% 90% 10% .5%;
+   font-family: montserrat;
+   margin: 0 .5% 1% .5%;

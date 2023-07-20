@@ -38,7 +38,7 @@ nav a{
   }
 
   img{
-    border-radius: 100px;
+    border-radius: 50%;
     float: left;
   }
 
@@ -59,22 +59,48 @@ nav a{
  ul{
    font-family: Source sans pro;
    font-size: 20px;
+   list-style-type: none;
+ }
+
+ .links ul{
+   display: grid;
+   grid-template-columns: 1fr 2fr 2fr 1fr;
+   grid-gap: 2rem;
+ }
+
+ .firstlink {
+   background-color: #e87777;
+   border-radius: 15%;
+   padding:20% 15% 20% 15%;
+   text-align: center;
+   grid-column: 2;
+ }
+
+ .secondlink {
+   background-color: #eba76a;
+   border-radius: 15%;
+   padding: 20% 15% 20% 15%;
+   text-align: center;
+   grid-column: 3;
  }
 
  footer p {
     background-color: #aadfe2;
-    padding: 0% 0 10% 3%;
+    padding: 0% 0 0% 3%;
  }
 
- footer em {
-   border: inset;
-   padding-bottom: 8%;
-   padding-right: 85%;
- }
 
  .footer {
    background-color: #aadfe2;
    padding: .05% 0 0 0;
+ }
+
+ footer #messagebox {
+   border: inset;
+   padding: .5% 90% 10% .5%;
+   font-family: montserrat;
+   margin: 0 .5% 1% .5%;
+
  }
 
 .content{
