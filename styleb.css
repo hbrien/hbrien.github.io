@@ -1,3 +1,30 @@
+@media screen and (min-width: 500px) {
+   .list ul {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-gap: 0.5rem;
+     list-style: none;
+   }
+}
+@media screen and (min-width: 800px) {
+   .list ul {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 0.5rem;
+     list-style: none;
+   }
+}
+@media screen and (min-width: 1200px){
+.list ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  font-family: montserrat;
+  text-align: center;
+  list-style: none;
+  }
+}
+
 body{
   margin: 0%;
 }
@@ -13,6 +40,10 @@ nav a{
   color: #ffffff;
   text-decoration: none;
   padding: 10px;
+}
+
+.active {
+  background-color: #eba76a;
 }
 
  h1 {
@@ -39,11 +70,6 @@ nav a{
     border-style: dotted;
 }
 
-.list ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 0.5rem;
-}
 
 li{
   line-height: 20px;
@@ -75,16 +101,21 @@ ul {
    font-size: 20px;
  }
 
- footer p {
-    background-color: #aadfe2;
-    border: outset;
-    border-radius: 25px;
-    padding-bottom: 10%;
-    padding-left: 3%;
-
+ #end {
+   padding-bottom: 5%;
  }
- footer .messagebox {
-   border: inset;
-   padding: .5% 90% 10% .5%;
-   font-family: montserrat;
-   margin: 0 .5% 1% .5%;
+
+ .top {
+   font-family: sans-serif;
+   font-size: 16;
+   background-color: #eba76a;
+   border-style:inset;
+   border-radius: 10%;
+   border-color: #eba76a;
+   padding: 15px;
+   margin: 5% 0 5% 5%;
+ }
+
+ a:hover {
+   background-color: #e87777;
+ }

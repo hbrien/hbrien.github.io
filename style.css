@@ -1,4 +1,9 @@
 
+@media screen and (max-width: 500px){
+  nav a {
+    grid-template-columns: 1fr;
+  }
+}
 body{
   margin: 0;
 }
@@ -21,6 +26,10 @@ nav a{
   color: #ffffff;
   padding:10px;
   text-decoration: none;
+}
+
+.active {
+  background-color: #eba76a;
 }
 
  h1 {
@@ -68,21 +77,24 @@ nav a{
    grid-gap: 2rem;
  }
 
- .firstlink {
+ #firstlink {
    background-color: #e87777;
    border-radius: 15%;
    padding:20% 15% 20% 15%;
    text-align: center;
    grid-column: 2;
+   margin-bottom:10px;
  }
 
- .secondlink {
+
+ #secondlink {
    background-color: #eba76a;
    border-radius: 15%;
    padding: 20% 15% 20% 15%;
    text-align: center;
    grid-column: 3;
  }
+
 
  footer p {
     background-color: #aadfe2;
@@ -105,4 +117,8 @@ nav a{
 
 .content{
  margin-left: 1.5%;
+}
+
+a:hover {
+  background-color: #e87777;
 }
