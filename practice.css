@@ -38,3 +38,12 @@ h1 {
   font-family: montserrat;
   font-size: 60;
 }
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #aadfe2;
+}
