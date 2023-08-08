@@ -110,7 +110,6 @@ nav a{
     padding: 0% 0 0% 3%;
  }
 
-
  .footer {
    background-color: #aadfe2;
    padding: .05% 0 0 0;
@@ -118,10 +117,9 @@ nav a{
 
  footer #messagebox {
    border: inset;
-   padding: .5% 90% 10% .5%;
+   padding: .5% 90% 1% .5%;
    font-family: montserrat;
    margin: 0 .5% 1% .5%;
-
  }
 
 .content{
